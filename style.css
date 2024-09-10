@@ -1,0 +1,124 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f7f7f7;
+    color: #22c79a;
+}
+
+.dashboard {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card {
+	background-color: #fff;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.card h2 {
+	color: #ff9900; /* Orange */
+}
+
+.card p {
+	color: red;
+}
+
+/* Overview Card */
+.overview-card {
+	background-color: #ffecb3; /* Light Orange */
+}
+
+/* Sales Card */
+.sales-card {
+	background-color: #87ceeb; /* Sky Blue */
+}
+
+.sales-card h2 {
+	color: #4682b4; /* Dark Blue */
+}
+
+/* Inventory Card */
+.inventory-card {
+	background-color: #ffc5c5; /* Light Red */
+}
+
+.inventory-card h2 {
+	color: #ff0000; /* Red */
+}
+
+/* Customers Card */
+.customers-card {
+	background-color: #ffe6e6; /* Baby Pink */
+}
+
+.customers-card h2 {
+	color: #ff69b4; /* Hot Pink */
+}
+
+/* Marketing Card */
+.marketing-card {
+	background-color: #add8e6; /* Light Blue */
+}
+
+.marketing-card h2 {
+	color: #1fc580; /* Dark Blue */
+}
+
+/* Operations Card */
+.operations-card {
+	background-color: #ffffcc; /* Light Yellow */
+}
+
+.operations-card h2 {
+	color: #808000; /* Dark Yellow */
+}
+
+/* Common Styles */
+.card ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.card li {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.card li:last-child {
+	border-bottom: none;
+}
+
+
+:root {
+    --sky-blue: #87CEEB;
+    --purple: #6c5ce7;
+    --orange: #ffa07a;
+    --blue: #007bff;
+    --navy: #1a1d23;
+    --green: #1fc580;
+  }
+  
+  body {
+    background-color: var(--navy);
+    color: var(--green);
+  }
+  
+  header {
+    background-color: var(--purple);
+    color: var(--orange);
+  }
+  
+  main {
+    background-color: var(--blue);
+    color: var(--green);
+  }
+  
+  footer {
+    background-color: var(--navy);
+    color: var(--purple);
+  }
+  
